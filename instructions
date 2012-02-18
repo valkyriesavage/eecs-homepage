@@ -1,0 +1,1 @@
+scp index.html login.eecs.berkeley.edu:public_html/index.html
