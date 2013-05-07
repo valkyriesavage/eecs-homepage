@@ -2,49 +2,55 @@
   <head>
     <title>Valkyrie Savage</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <style type="text/css">
-      #profimg {
-        position: absolute;
-        left:0px;
-        top:0px;
-      }
-      #text {
-        left: 300px;
-        top: 0px;
-        position: absolute;
-        width: 500px;
-        visibility: visible;
-        margin-top: 10px;
-      }
-      #title {
-        width: 800px;
-        font-size: 20px;
-        color:#FA3;
-      }
-      #info {
-        display: block;
-      }
-      #list {
-      }
-      a, a:visited {
-        color: #FA3;;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id="profimg">
-      <a href="http://www.flickr.com/photos/l0b0/4535089412/sizes/l/in/set-72157623894536794/"><img src="http://farm3.staticflickr.com/2694/4535089412_3d7be4c31e_b.jpg" width=295px%/></a>
+    
+    <div id="header">
+      <div id="title">
+        <h1>Valkyrie Savage</h1>
+      </div>
+      <div id="contact">
+        valkyrie at eecs dot berkeley dot edu <br/>
+        <a href="http://github.com/valkyriesavage">http://github.com/valkyriesavage</a>
+      </div>
+      <div id="tabs">
+        <a class="active" href="/index.html">Home</a>
+        <a href="/research.html">Research</a>
+        <a href="/projects.html">Other Projects</a>
+        <a href="/travel.html">Travel</a>
+        <a href="/realworld.html">Job Experience</a>
+        <a href="/interwebs.html">On the Interwebs</a>
+      </div>
     </div>
+
+    <div id="content" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3 img-polaroid">
+          <a href="http://www.flickr.com/photos/l0b0/4535089412/sizes/l/in/set-72157623894536794/"><img src="file:///Users/valkyrie/Pictures/babywuvs.png" width=295px /></a>
+        </div>
+        <span class="span4">
+          I am a second year PhD student at <a href="http://berkeley.edu">Berkeley</a> in <a href="http://eecs.berkeley.edu">EECS</a> working with <a href="http://bjoern.org">Björn Hartmann</a> in the <a href="http://bid.berkeley.edu/">Berkeley Institute of Design (BiD)</a>.
+          <br/><br/>
+          I did my undergrad work at <a href="http://indiana.edu">Indiana University</a>, receiving a BS in CS, a BA in Math, and minors in Psychology and Spanish.
+          <br/><br/>
+          My <a href="/research.html">research focus</a> is digital fabrication and how we can leverage it both to make our individual lives easier and to inspire fascination with STEAM in tomorrow's scientists.  I'm also intrigued by experiential education in general, and <a href="http://savageevan.com">my husband, Evan Savage,</a> and I are working on <a href="http://savageinter.net">some projects</a> in that space.
+          <br/><br/>
+          I also have a <a href="/travel.html">deep wanderlust</a>, and I like working on <a href="/projects.html">random projects</a>.
+        </span>
+      </div>
+    </div>
+
+    <div id="footer">
+      (c)2013 Valkyrie Savage
+    </div>
+
+    <!---
     <div id="text">
       <div id="title">Valkyrie Savage</div>
       <div id="info">
         <div id="intro">
-          I am a first year PhD student in EECS working with <a href="http://bjoern.org">Björn Hartmann</a> in the <a href="http://bid.berkeley.edu/">Berkeley Institute of Design (BiD)</a> lab.<br/>
-          I did my undergrad work at <a href="http://indiana.edu">Indiana University</a>, receiving a BS in CS, a BA in Math, and minors in Psychology and Spanish.<br/>
         </div>
         <div name="text">
           Since starting at Berkeley, I've worked on some fun projects, like<br/>
@@ -100,5 +106,6 @@
         </div>
       </div>
     </div>
+    -->
   </body>
 </html>
