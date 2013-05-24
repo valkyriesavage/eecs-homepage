@@ -55,3 +55,7 @@ a:focus {
   border-top: 2px solid #f50;
   display: block;
 }
+
+img {
+  width: 100%;
+}
