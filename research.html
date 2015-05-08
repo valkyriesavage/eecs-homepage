@@ -7,33 +7,46 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    
+
     <div id="header">
       <div id="title">
-        <h1>Valkyrie Savage</h1>
+        Valkyrie Savage
+      </div>
+      <br/>
+      <div id="subtitle">
+        Digital Fabricatrix
       </div>
       <div id="contact">
-        valkyrie at eecs dot berkeley dot edu <br/>
+        valkyrie at eecs dot berkeley dot edu <br/><br/>
         <a href="http://github.com/valkyriesavage">http://github.com/valkyriesavage</a>
       </div>
       <div id="tabs">
         <a href="index.html">Home</a>
+        |
         <a class="active" href="research.html">Research</a>
+        |
         <a href="projects.html">Other Projects</a>
+        |
         <a href="travel.html">Travel</a>
+        |
         <a href="realworld.html">Job Experience</a>
+        |
         <a href="interwebs.html">On the Interwebs</a>
-        <a href="http://blog.valkyriesavage.com/">Blog</a>
+        |
+        <a href="http://blog.valkyriesavage.com">Blog</a>
       </div>
     </div>
 
+
     <div id="content" class="container-fluid">
       <div class="row-fluid">
-        <div class="span3 img-polaroid">
+        <div class="span4 img-polaroid">
           <a href="images/lamello.png"><img src="images/lamello-small.jpeg"/></a>
         </div>
-        <span class="span9">
-          <h2>Lamello (to appear : CHI 2015)</h2>
+        <span class="span8">
+          <h3>Lamello (CHI 2015)</h3>
+          <a href="http://valkyriesavage.com/papers/lamello.pdf">paper</a> ::
+          <a href="https://www.youtube.com/watch?v=695ke7P6HM4">video</a>
           <br/>
           <br/>
           We describe Lamello, an approach for creating tangible input components that recognize user interaction via passive acoustic sensing. Lamello employs comb-like structures with varying-length tines at interaction points (e.g., along slider paths). Moving a component generates tine strikes; a real-time audio processing pipeline analyzes the resultant sounds and emits high-level interaction events. Our main contributions are in the co-design of the tine structures, information encoding schemes, and audio analysis. We demonstrate 3D printed Lamello-powered buttons, sliders, and dials.
@@ -45,12 +58,12 @@
 
     <div id="content" class="container-fluid">
       <div class="row-fluid">
-        <div class="span3 img-polaroid">
+        <div class="span4 img-polaroid">
           <a href="images/SoT.png"><img src="images/SoT-small.png"/></a>
         </div>
-        <span class="span9">
-          <h2>A Series of Tubes (UIST 2014)</h2>
-          <a href="http://www.autodeskresearch.com/pdf/series_of_tubes_authored.pdf">paper</a> ::
+        <span class="span8">
+          <h3>A Series of Tubes (UIST 2014)</h3>
+          <a href="http://valkyriesavage.com/papers/series_of_tubes.pdf">paper</a> ::
           <a href="https://www.youtube.com/watch?v=PiFbjOkYC4M">video</a>
           <br/>
           <a href="http://dl.acm.org/citation.cfm?id=2642918.2647374">on the digital library</a>
@@ -68,12 +81,12 @@
 
     <div id="content" class="container-fluid">
       <div class="row-fluid">
-        <div class="span3 img-polaroid">
+        <div class="span4 img-polaroid">
           <a href="images/sauron.png"><img src="images/sauron-small.jpeg"/></a>
         </div>
-        <span class="span9">
-          <h2>Sauron (UIST 2013)</h2>
-          <a href="http://www.cs.berkeley.edu/~bjoern/papers/savage-sauron-uist2013.pdf">paper</a> ::
+        <span class="span8">
+          <h3>Sauron (UIST 2013)</h3>
+          <a href="http://valkyriesavage.com/papers/sauron.pdf">paper</a> ::
           <a href="https://www.youtube.com/watch?v=GNdCnmm-cw8">video</a>
           <br/>
           <a href="http://dl.acm.org/citation.cfm?id=2501988.2501992">on the digital library</a>
@@ -87,12 +100,12 @@
 
     <div id="content" class="container-fluid">
       <div class="row-fluid">
-        <div class="span3 img-polaroid">
+        <div class="span4 img-polaroid">
           <a href="images/midas.png"><img src="images/midas-small.png"/></a>
         </div>
-        <span class="span9">
-          <h2>Midas (UIST 2012)</h2>
-          <a href="http://bid.berkeley.edu/files/papers/savage-midas-uist2012.pdf">paper</a> ::
+        <span class="span8">
+          <h3>Midas (UIST 2012)</h3>
+          <a href="http://valkyriesavage.com/papers/midas.pdf">paper</a> ::
           <a href="http://www.youtube.com/watch?v=lS60AH2_Pbs">video</a> ::
           <a href="http://github.com/valkyriesavage/midas">source</a>
           <br/>
@@ -102,18 +115,12 @@
           An increasing number of consumer products include user interfaces that rely on touch input. While digital fabrication techniques such as 3D printing make it easier to prototype the shape of custom devices, adding interactivity to such prototypes remains a challenge for many designers. We introduce Midas, a software and hardware toolkit to support the design, fabrication, and programming of flexible capacitive touch sensors for interactive objects. With Midas, designers first define the desired shape, layout, and type of touch sensitive areas, as well as routing obstacles, in a sensor editor. From this high-level specification, Midas automatically generates layout files with appropriate sensor pads and routed connections. These files are then used to fabricate sensors using digital fabrication processes, e.g., vinyl cutters and conductive ink printers. Using step-by-step assembly instructions generated by Midas, designers connect these sensors to the Midas microcontroller, which detects touch events. Once the prototype is assembled, designers can define interactivity for their sensors: Midas supports both record-and-replay actions for controlling existing local applications and WebSocket-based event output for controlling novel or remote applications. In a first-use study with three participants, users successfully prototyped media players. We also demonstrate how Midas can be used to create a number of touch-sensitive interfaces.
           <br/>
           <br/>
-          In addition to the presentation at UIST, I've also talked about Midas at
-          <ul>
-            <li>Sketching in Hardware 2012</li>
-            <li>FabLearn 2012</li>
-            <li>the SWARM lab retreat 2012</li>
-          </ul>
         </span>
       </div>
     </div>
 
     <div id="footer">
-      (c)2013 Valkyrie Savage
+      (c)2015 Valkyrie Savage
     </div>
 
   </body>
