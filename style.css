@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -11,7 +11,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #e40;
+  color: #f50;
   text-decoration: underline;
 }
 
@@ -32,7 +32,7 @@ a:focus {
   font-color: #333;
   display: inline-block;
   padding-left: 30px;
-  padding-bottom: 75px;
+  padding-bottom: 35px;
   font-size: 23.92px;
 }
 
@@ -50,12 +50,19 @@ a:focus {
   padding-right: 10px;
 }
 
+#tabs > a:hover,
+#tabs > a:focus {
+  color: #f50;
+  text-decoration: none;
+}
+
+
 #contact {
   display: inline-block;
-  font-size: 20.1919px;
+  font-size: 16.1919px;
   text-align: right;
   position: absolute;
-  right: 0px;
+  right: 20px;
   top: 65px;
 }
 
@@ -75,7 +82,7 @@ a:focus {
   display: block;
   padding: 20px;
   text-color: #aaa;
-  font-size: 16.1919px;
+  font-size: 10.1919px;
 }
 
 img {
